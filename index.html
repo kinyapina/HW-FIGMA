@@ -20,21 +20,21 @@
         <nav class="header-menu">
           <ul class="header-menu-list">
             <li class="header-menu-list-item">
-              Home
+              <a href="#">Home</a>
             </li>
             <li class="header-menu-list-item">
-              Illustrations
+              <a href="#">Illustrations</a>
             </li>
             <li class="header-menu-list-item">
-              Contact
+              <a href="#">Contact</a>
             </li>
           </ul>
         </nav>
         <div class="btn-wrap">
-          <button type="submit" class="button btn-sign-up">
+          <button class="button btn-sign-up">
             <span class="btn">Sign up</span>
           </button>
-          <button type="submit" class="button btn-sign-in">
+          <button class="button btn-sign-in">
             <span class="btn">Sign in</span>
           </button>
         </div>
@@ -51,8 +51,10 @@
           </p>
         </article>
         <form class="form-email">
-          <span class="form-title">Join our newsletter</span>
-          <input type="text" class="email-field" placeholder="Email" required>
+          <label for="mail">
+            <span class="form-title">Join our newsletter</span>
+            <input type="text" class="email-field" id="mail" placeholder="Email" required>
+          </label>
           <button type="submit" class="button email-btn">
             <span class="btn">Sign up</span>
           </button>
