@@ -20,8 +20,7 @@ li {
   background: #1e90ff70;
   padding: 2% 5%;
   box-sizing: border-box;
-  width: 100%; /* 
-  min-height: 1024px; */
+  width: 100%;
 }
 
 .header-wrap {
@@ -58,8 +57,25 @@ li {
   margin-right: 0;
 }
 
-.button {
-  display: block;
+.header-btn {
+  display: flex;
+}
+
+.header-btn-list {
+  margin-right: 5px;
+}
+
+.header-btn-list:last-child {
+  margin-right: 0;
+}
+
+.header-btn-item {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
   border: 2px solid #4443d0;
   border-radius: 8px;
   background: #4443d0;
@@ -69,6 +85,7 @@ li {
   height: 41px;
   padding: 11px 36px;
   cursor: pointer;
+  text-transform: none;
 }
 
 .btn-sign-up {
@@ -148,4 +165,17 @@ li {
 
 .email-btn {
   margin-bottom: 192px;
+}
+
+.button {
+  display: block;
+  border: 2px solid #4443d0;
+  border-radius: 8px;
+  background: #4443d0;
+  color: #ffffff;
+  font-weight: bold;
+  width: 135px;
+  height: 41px;
+  padding: 11px 36px;
+  cursor: pointer;
 }
